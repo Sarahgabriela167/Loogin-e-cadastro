@@ -1,0 +1,179 @@
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loggin e cadastro</title>
+    <form>
+    </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Mercado livre</button>
+
+  </li>
+   <main>
+  </style>
+  </h1>Bem-vindo ao nosso site!</h1>
+    <p>Conteúdo da nossa loja aqui.</p>
+     <main>
+
+  </main>
+  <footer>
+    <h2>CADASTRO:</h2>
+</ul>
+  </li>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email </label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">Coloque aqui seu email:</div>
+  </div>
+  </div>
+
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Senha</label>
+
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+
+    <label class="form-check-label" for="exampleCheck1">Não lebra senha?</label>
+    <button type="submit" class="btn btn-primary">Recuperar senha</button>
+
+  </div>
+
+    </footer>
+    <img src="gmail-logo-2020-01-4d7e53f1-370x175.png" alt="email">
+    <h2>Contatos</h2>
+    <p><strong>Telefone:</strong> (11) 99999-9999</p>
+     <p>Se você tiver dúvidas sobre nosso site, entre em contato pelo e-mail:</p>
+    <p><strong>Email:</strong> <a href="mailto:suporte@exemplo.com">suporte@exemplo.com</a></p>
+    </footer>
+css
+/* Reset básico */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Cabeçalho principal */
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
+}
+
+/* Texto de boas-vindas e conteúdo */
+main {
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Formulário de cadastro */
+form {
+    margin: 20px auto;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button.btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.btn:hover {
+    background-color: #218838;
+}
+
+/* Rodapé */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer h2 {
+    color: #ffc107;
+}
+
+a {
+    color: #17a2b8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Imagem do Gmail */
+img {
+    width: 100px;
+    display: block;
+    margin: 10px auto;
+}
+.contato-header {
+    background-color: #d8b4e2; /* Lilás suave */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 700px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.contato-header h2 {
+    color: #6a1b9a; /* Roxo mais escuro para contraste */
+}
+
+.contato-header img {
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+.contato-header .btn {
+    background-color: #8e44ad; /* Botão roxo */
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contato-header .btn:hover {
+    background-color: #732d91;
+}
+
+</body>
+</html>
